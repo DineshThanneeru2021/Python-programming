@@ -1,0 +1,11 @@
+**** write a program that asks the user to enter first and last name and prints in a reverse order ***
+
+
+fname=input("enter first name:")
+lname=input("enter last name:")
+print(lname,fname)
+
+# Output :
+enter first name:Thanneeru
+enter last name:Dinesh
+Dinesh Thanneeru
