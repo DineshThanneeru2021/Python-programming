@@ -1,0 +1,14 @@
+**** write a program to caluculate the area of triangle  ****
+
+Source Code:
+
+base=int(input("enter base value:"))
+height=int(input("enter height:"))
+area=((1/2)*(base*height))
+print("Area",area)
+
+# Output :
+
+enter base value:4
+enter height:6
+Area 12.0
