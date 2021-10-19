@@ -1,0 +1,21 @@
+#word:1234,abcd:2345
+input1=input()
+
+input_list=input1.split(",")
+for i in input_list:
+    string,number=i.split(":")
+    sum1=0
+    for digit in number:
+        sum1+=(int(digit)**2)
+        
+    print(sum1)
+        
+    if(sum1%2==0):
+        sub=string[-2::]
+        result=sub+string[0:len(string)-2:]
+        print(result)
+    else:
+        sub=string[0]
+        result=string[1:]+sub
+        print(result)
+        
