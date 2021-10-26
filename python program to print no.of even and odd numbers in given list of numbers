@@ -1,0 +1,19 @@
+n=int(input("Enter n : "))
+print("Enter %d numbers "%n)
+c=0
+c3=0
+a=list(map(int,input("  ").split()))
+for i in range(0,len(a)):
+    if a[i]%2==0:
+        c=c+1
+    else:
+        c3=c3+1
+#print("odd  numbers are %d and even are %d"%(c3,c))
+print(c,c3)
+
+/*************************************************************************/
+OUTPUT :
+Enter n : 3
+Enter 3 numbers 
+  1 4 10
+2 1
