@@ -1,0 +1,19 @@
+n=int(input("Enter n : "))
+for j in range(0,n):
+    if(j==0):
+        print("b"*(n-1-j),"b"*(n-1-j),sep="*")
+    elif( j<n-1):
+        print("b"*(n-1-j),(((j-1)+j)*"i"),"b"*(n-1-j),sep="*")
+    else:
+        print((n+(n-1))*"*")
+    
+    
+    /**************************************************************/
+    # OUTPUT:
+    
+    Enter n : 5
+bbbb*bbbb
+bbb*i*bbb
+bb*iii*bb
+b*iiiii*b
+*********
